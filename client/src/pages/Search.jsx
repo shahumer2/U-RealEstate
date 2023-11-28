@@ -52,7 +52,7 @@ export default function Search() {
       const searchQuery = urlParam.toString();
       const res = await fetch(`/api/listing/getListing?${searchQuery}`);
       const data = await res.json();
-      if (data.length > 8) {
+      if (data.length > 7) {
         setshowmore(true);
       } else {
         setshowmore(false);
