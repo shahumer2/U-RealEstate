@@ -1,7 +1,6 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -11,7 +10,7 @@
     "presets": "@babel/preset-env"
   },
   "keywords": [],
-  "author": "",
+  "author": "umer",
   "license": "ISC",
   "dependencies": {
     "abortcontroller-polyfill": "^1.7.5",
@@ -26,5 +25,6 @@
   "devDependencies": {
     "@babel/core": "^7.23.3",
     "@babel/preset-env": "^7.23.3"
-  }
+  },
+  "description": ""
 }
